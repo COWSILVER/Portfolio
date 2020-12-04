@@ -1,21 +1,21 @@
 
 @font-face {
     font-family:NanumSquareRoundB;
-    src: url('../font/NanumSquareRoundB.ttf');
+    src: url('font/NanumSquareRoundB.ttf');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family:NanumSquareRoundR;
-    src: url('../font/NanumSquareRoundR.ttf');
+    src: url('font/NanumSquareRoundR.ttf');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: CodaCaption-ExtraBold;
-    src: url('../font/CodaCaption-ExtraBold.ttf');
+    src: url('/font/CodaCaption-ExtraBold.ttf');
     font-weight: normal;
     font-style: normal;
 }

@@ -1,14 +1,14 @@
 
 @font-face {
     font-family:NanumSquareRoundB;
-    src: url(../font/NanumSquareRoundB.ttf);
+    src: url('font/NanumSquareRoundB.ttf');
     font-weight: nomal;
     font-style: normal;
 }
 
 @font-face {
     font-family:NanumSquareRoundR;
-    src: url('../font/NanumSquareRoundR.ttf');
+    src: url('font/NanumSquareRoundR.ttf');
     font-weight: normal;
     font-style: normal;
 }
@@ -72,10 +72,13 @@ nav li .current{
     border-bottom-color: 3px solid black;
 }
     
+a:hover{
+    color: darkgrey;
+}
 
 body{
     width:80%;
-    height: 1000px;
+    height: auto;
     margin: auto;
     font-family: NanumSquareRoundR;
     outline: solid 4px;
@@ -84,12 +87,24 @@ body{
 
 .main-container{
      width:96%;
+    height: 1000px;
     margin: auto;
     margin-top: 40px;
     font-family: NanumSquareRoundR;
     outline: solid 4px;
     padding: 10px;
 }
+.main-img{
+    box-sizing: border-box;
+    float: left;
+    width: 350px;
+    height: 300px;
+    8border: 1px solid;
+    margin-right: 50px;
+    text-indent: -2000px;
+    
+}
+
 
 }
 #img_nav{
