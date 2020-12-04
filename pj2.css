@@ -95,6 +95,26 @@ body{
     -outline: solid 2px;
     padding: 40px 0 0 ;
 }
+.brand{
+    display: block;
+    float:right;
+    -border: solid;
+    width: 50%;
+    padding: 20px;
+    font-family: NanumSquareRoundB;
+    text-align: center;
+    font-size:xx-large;
+    
+}
+
+.ment{
+    display: block;
+    float:right;
+    -border: solid;
+    width: 50%;
+    padding: 30px;
+    font-family: NanumSquareRoundR;;
+}
 .main-img{
    width: 500px;
     height: 500px;
