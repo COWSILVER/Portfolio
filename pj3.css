@@ -93,7 +93,7 @@ body{
     align-content: center;
     font-family: NanumSquareRoundR;
     -outline: solid 2px;
-    padding: 40px 0 100px ;
+    padding: 40px 0 0px ;
 }
 .main-img{
    width: 500px;
@@ -159,7 +159,7 @@ body{
     display: block;
     width: 150px;
     height: 170px;
-    background: url("../main/image/icon2_%EB%8C%80%EC%A7%80%201.png") no-repeat;
+    background: url("/main/image/icon2_%EB%8C%80%EC%A7%80%201.png") no-repeat;
     background-size: 750px; 
 }
 #img_nav nav .class_pj1{
