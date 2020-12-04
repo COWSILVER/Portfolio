@@ -1,0 +1,297 @@
+
+@font-face {
+    font-family:NanumSquareRoundB;
+    src: url('../font/NanumSquareRoundB.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family:NanumSquareRoundR;
+    src: url('../font/NanumSquareRoundR.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: CodaCaption-ExtraBold;
+    src: url('../font/CodaCaption-ExtraBold.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+.logo-container{
+    font-family: NanumSquareRoundB;
+    font-size: xx-large;
+    margin-left:20px;
+    margin-right:0px;
+    align-content: center;
+}
+header {
+   background-color: white;
+    width: 
+    height: 70px;
+    margin-right: auto; 
+    border-top:none;
+    margin-left: auto; 
+    padding: 40px;
+    text-decoration: none;
+    border-bottom: 4px solid;
+} 
+.nav-container{
+    display: block;
+    width: 100%;
+    margin: 
+    padding: 0 auto;
+}
+nav ui li a{
+    text-decoration: none;
+    color: black;   
+}
+
+nav ui li .current{
+   width: 100%;
+    border-bottom: 5px solid black;
+}
+    
+nav li{
+    display: block;
+    float: left;
+    width: 10%;
+    text-align: center;
+    margin-top: 0;
+    margin-left: 30
+    
+    
+}
+nav ui{
+    display: block;
+    float: left;
+    width: 100%;
+    text-align: center;
+    margin-left: 540px
+}
+a:hover{
+    color: darkgrey;
+}
+
+a:target{
+    text-decoration: none;
+    text-emphasis-color: black;
+}
+
+a:active{
+    text-decoration: none;
+    text-emphasis-color: black;
+}
+body{
+    width:80%;
+    height: auto;
+    margin: auto;
+    font-family: NanumSquareRoundR;
+    font-size: 20px;
+    outline: solid 4px;
+    padding: 10px;
+}
+
+.main-container{
+    display: block;
+     width:96%;
+    height: 1200px;;
+    margin: auto;
+    margin-top: 40px;
+    font-family: NanumSquareRoundR;
+    -outline: solid 4px;
+    padding: 10px;
+}
+.froflie{
+    display: block;
+    width: 30%;
+    height: auto;
+    padding:2px;
+    float: left;
+    margin: 0;
+   - border: solid 1px;
+}
+.name{
+    display: block;
+    width:60%;
+    height: 250px;
+    padding:0;
+    margin: 30px 20px 10px 10px;
+    float: right;
+    overflow: hidden;
+    -border: 1px solid;
+    font-family:CodaCaption-ExtraBold, NanumSquareRoundR;
+    font-size: xx-large;
+    text-align: center;
+}
+
+.moto{
+    display: block;
+    float: none;
+    width: 70%;
+    -border: 1px solid;
+    font-family:CodaCaption-ExtraBold,NanumSquareRoundR; 
+    font-size: xx-large;
+    margin: 150px 20px auto 380px;
+    text-align: center;
+}
+
+.img_list {
+    display: block;
+    float: left;
+    list-style: none;
+     text-decoration: none;
+    width: 35%;;
+    border-right: solid;
+}
+
+.contact{
+    display: block;
+    -border: solid 1px ;
+    border-top: solid 3px;
+    padding-left: 0px;
+    margin: 30px auto  30px auto;
+    list-style: none;
+    text-decoration: none;
+}
+
+.img_list li:nth-child(3n+1){
+    background: url(image/353432-communication-phone-telephone_107500.png) no-repeat;
+    background-size: 22px;
+    padding: 0 0 3px 25px;
+    width: 200px;
+}
+
+.img_list li:nth-child(3n+2){
+    background: url(image/mail_icon_128820.png)no-repeat;
+    background-size: 20px;
+    padding: 0 5px 3px 25px;
+    width: 200px;
+}
+
+.img_list li:nth-child(3n+3){
+    background: url(image/insta.png)no-repeat;
+    background-size: 20px;
+    padding: 0 5px 3px 25px;
+    text-decoration: none;
+    width: 200px;
+}
+
+.topic{
+    display: block;
+    float: right;
+    width: 53%;
+    margin: 20px 10px 40px 10px;
+    overflow: hidden;
+    padding: 5px;
+    font-size: 15px;
+}
+
+
+table{
+    width: 900px;
+    height: 700px;
+    align-content: center;
+}
+
+td{
+    align-content: center;
+    width: auto;
+    height: auto;
+    padding: 10px auto 50px 50px;
+    margin: 60px;
+}
+#img_nav{
+    width:800px;
+    text-align: 1eft;
+    padding: 5px;
+    border-top:;
+    margin:20px 0;
+    align-content: center;
+    font-family: NanumSquareRoundB,NanumSquareRoundR;
+    font-size: x-large;
+}
+
+
+#img_nav nav ul{
+    overflow: hidden;
+    list-style: none;
+    margin: 50px auto auto 0;
+    padding:  0;
+    width: 960px;
+}
+
+#img_nav nav ul{
+    overflow: hidden;
+    list-style: none;
+    margin: 50px auto auto 0;
+    padding:  0;
+    width: 1000px;
+}
+
+#img_nav nav li{
+    box-sizing: border-box;
+    float: left;
+    width: 150px;
+    height: 150px;
+    8border: 1px solid;
+    margin-right: 50px;
+    text-indent: -2000px;
+    
+}
+
+#img_nav nav  li last-child{
+    margin-right: 0;
+}
+
+#img_nav nav a{
+    display: block;
+    width: 150px;
+    height: 170px;
+    background: url("../main/image/icon2_%EB%8C%80%EC%A7%80%201.png") no-repeat;
+    background-size: 750px; 
+}
+#img_nav nav .class_pj1{
+    background-position: left 0 top 0; 
+}
+#img_nav nav .class_pj2{
+    background-position: left -149px top 0; 
+}
+#img_nav nav .class_pj3{
+    background-position: left -298px top 0; 
+}
+#img_nav nav .class_pj4{
+    background-position: left -447px top 0; 
+}
+#img_nav nav .class_home{
+    background-position: left -598px top 0; 
+}
+
+#img_nav nav .class_pj1:hover{
+    background-position: left 0px top -150px; 
+}
+#img_nav nav .class_pj2:hover{
+    background-position: left -149px top -150px; 
+}
+#img_nav nav .class_pj3:hover{
+    background-position: left -298px top -150px; 
+}
+#img_nav nav .class_pj4:hover{
+     background-position: left -447px top -150px; 
+}
+#img_nav nav .class_home:hover{
+    background-position: left -598px top -150px;
+}
+
+footer{ 
+    width:950px; 
+    text-align: center;
+    margin-right: auto; 
+    margin-left: auto; 
+    padding:2px; 
+    background-color:#fff; 
+    color:black; 
+    text-align:center;
+    font-size: 15px;
+    font-family: NanumSquareRoundB;

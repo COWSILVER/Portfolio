@@ -1,0 +1,188 @@
+
+@font-face {
+    font-family:NanumSquareRoundB;
+    src: url(../font/NanumSquareRoundB.ttf);
+    font-weight: nomal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family:NanumSquareRoundR;
+    src: url('../font/NanumSquareRoundR.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.logo-container{
+    font-family: NanumSquareRoundB;
+    font-size: xx-large;
+    margin-left:20px;
+    margin-right:0px;
+    align-content: center;
+}
+
+header {
+   background-color: white;
+    width: 
+    height: 70px;
+    margin-right: auto; 
+    border-top:none;
+    margin-left: auto; 
+    padding: 40px;
+    text-decoration: none;
+    border-bottom: 4px solid;
+} 
+.nav-container{
+    display: block;
+    width: 100%;
+    margin: 
+    padding: 0 auto;
+}
+nav ui li a{
+    text-decoration: none;
+    color: black;
+    
+    
+}
+
+nav ui li .current{
+   width: 100%;
+    border-bottom: 5px solid black;
+}
+    
+nav li{
+    display: block;
+    float: left;
+    width: 10%;
+    text-align: center;
+    margin-top: 0;
+    margin-left: 30
+    
+    
+}
+nav ui{
+    display: block;
+    float: left;
+    width: 100%;
+    text-align: center;
+    margin-left: 530px
+}
+nav li .current{
+   width: 100%;
+    border-bottom-color: 3px solid black;
+}
+    
+
+body{
+    width:80%;
+    height: 1000px;
+    margin: auto;
+    font-family: NanumSquareRoundR;
+    outline: solid 4px;
+    padding: 10px;
+}
+
+.main-container{
+     width:96%;
+    margin: auto;
+    margin-top: 40px;
+    font-family: NanumSquareRoundR;
+    outline: solid 4px;
+    padding: 10px;
+}
+
+}
+#img_nav{
+    width:800px;
+    text-align: 1eft;
+    padding: 5px;
+    border-top:;
+    margin:20px 0;
+    align-content: center;
+    font-family: NanumSquareRoundB;
+    font-size: x-large;
+}
+
+
+#img_nav nav ul{
+    overflow: hidden;
+    list-style: none;
+    margin: 0 0 0 50px;
+    padding:  ;
+    width: 90px;
+}
+
+#img_nav nav ul{
+    overflow: hidden;
+    list-style: none;
+    margin: auto;
+    padding:  0;
+    width: 1000px;
+}
+
+#img_nav nav li{
+    box-sizing: border-box;
+    float: left;
+    width: 150px;
+    height: 150px;
+    8border: 1px solid;
+    margin-right: 50px;
+    text-indent: -2000px;
+    
+}
+
+#img_nav nav  li last-child{
+    margin-right: 0;
+}
+
+#img_nav nav a{
+    display: block;
+    width: 150px;
+    height: 170px;
+    background: url("../main/image/icon2_%EB%8C%80%EC%A7%80%201.png") no-repeat;
+    background-size: 750px; 
+}
+#img_nav nav .class_pj1{
+    background-position: left 0 top 0; 
+}
+#img_nav nav .class_pj2{
+    background-position: left -149px top 0; 
+}
+#img_nav nav .class_pj3{
+    background-position: left -298px top 0; 
+}
+#img_nav nav .class_pj4{
+    background-position: left -447px top 0; 
+}
+#img_nav nav .class_home{
+    background-position: left -598px top 0; 
+}
+
+#img_nav nav .class_pj1:hover{
+    background-position: left 0 top -150px; 
+}
+#img_nav nav .class_pj2:hover{
+    background-position: left -149px top -150px; 
+}
+#img_nav nav .class_pj3:hover{
+    background-position: left -298px top -150px; 
+}
+#img_nav nav .class_pj4:hover{
+     background-position: left -447px top -150px; 
+}
+#img_nav nav .class_home:hover{
+    background-position: left -598px top -150px;
+}
+
+
+footer{ 
+    width:950px; 
+    text-align: center;
+    margin-right: auto; 
+    margin-left: auto; 
+    padding:2px; 
+    background-color:#fff; 
+    color:black; 
+    text-align:center;
+    font-size: 15px;
+    font-family: NanumSquareRoundB;
