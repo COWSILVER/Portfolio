@@ -115,6 +115,12 @@ body{
     padding: 30px;
     font-family: NanumSquareRoundR;;
 }
+.intro{
+  padding: 10px;
+    align-content: center;
+    margin: auto;
+    float: none;
+}
 .main-img{
    width: 500px;
     height: 500px;
