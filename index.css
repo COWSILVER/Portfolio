@@ -96,7 +96,7 @@ body{
 .main-container{
     display: block;
      width:96%;
-    height: 1200px;;
+    height: auto;
     margin: auto;
     margin-top: 40px;
     font-family: NanumSquareRoundR;
