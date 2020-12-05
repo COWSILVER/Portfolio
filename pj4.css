@@ -88,30 +88,44 @@ body{
 .froflie{
     margin: auto;
     width: 100%;;
-    margin:auto ;
+    margin:0 ;
     border-bottom: 3px solid;
     align-content: center;
     font-family: NanumSquareRoundR;
     -outline: solid 2px;
-    padding: 40px 0 100px ;
+    padding: 10px 0 10px ;
+}
+.brand{
+    display: block;
+    float:right;
+    -border: solid;
+    width: 50%;
+    padding: 10px;
+    font-family: NanumSquareRoundB;
+    text-align: center;
+    font-size:xx-large;
+    margin-top: 20px;
+}
+.ment{
+    display: block;
+    float:right;
+    -border: solid;
+    width: 50%;
+    padding: 10px;
+    margin: 10px 20px auto;;
+    font-family: NanumSquareRoundR;
+    -outline: 1px solid;
+}
+intro4{
+    margin-bottom: 30px;
+    padding-bottom: 30px;
 }
 .main-img{
    width: 500px;
     height: 500px;
 }
 
-.1{
-    display: block;
-    width: 700px;
-    height: 40%;
-    float: left;
-}
-.2{
-    display: block;
-    width: 700px;
-    height: 40%;
-    float: left;
-}
+
 #img_nav{
     width:800px;
     text-align: 1eft;
@@ -199,9 +213,8 @@ footer{
     border-top: 4px solid;
     width:100%; 
     text-align: center;
-    margin-right: auto; 
-    margin-left: auto; 
-    padding: 
+    margin: auto;
+    padding:0; 
     background-color:#fff; 
     color:black; 
     text-align:center;

@@ -15,7 +15,7 @@
 
 @font-face {
     font-family: CodaCaption-ExtraBold;
-    src: url('/font/CodaCaption-ExtraBold.ttf');
+    src: url('font/CodaCaption-ExtraBold.ttf');
     font-weight: normal;
     font-style: normal;
 }
