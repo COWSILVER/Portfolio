@@ -106,14 +106,15 @@ body{
     font-size:xx-large;
     
 }
-ㄴ
 .ment{
     display: block;
     float:right;
-    border: solid;
+    -border: solid;
     width: 50%;
     padding: 10px;
-    font-family: NanumSquareRoundR;;
+    margin: 10px 20px auto;;
+    font-family: NanumSquareRoundR;
+    -outline: 1px solid;
 }
 .main-img{
    width: 500px;
