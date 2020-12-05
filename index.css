@@ -157,21 +157,21 @@ body{
 }
 
 .img_list li:nth-child(3n+1){
-    background: url(/main/image/353432-communication-phone-telephone_107500.png) no-repeat;
+    background: url(main/image/353432-communication-phone-telephone_107500.png) no-repeat;
     background-size: 22px;
     padding: 0 0 3px 25px;
     width: 200px;
 }
 
 .img_list li:nth-child(3n+2){
-    background: url(/main/image/mail_icon_128820.png)no-repeat;
+    background: url(main/image/mail_icon_128820.png)no-repeat;
     background-size: 20px;
     padding: 0 5px 3px 25px;
     width: 200px;
 }
 
 .img_list li:nth-child(3n+3){
-    background: url(/main/image/insta.png)no-repeat;
+    background: url(main/image/insta.png)no-repeat;
     background-size: 20px;
     padding: 0 5px 3px 25px;
     text-decoration: none;
@@ -249,7 +249,7 @@ td{
     display: block;
     width: 150px;
     height: 170px;
-    background: url("../main/image/icon2_%EB%8C%80%EC%A7%80%201.png") no-repeat;
+    background: url("main/image/icon2_%EB%8C%80%EC%A7%80%201.png") no-repeat;
     background-size: 750px; 
 }
 #img_nav nav .class_pj1{
